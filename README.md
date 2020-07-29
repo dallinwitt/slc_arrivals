@@ -2,7 +2,7 @@
 ## Supervised Machine Learning
 
 #### Motivation
-Late flight arrivals are a hassle, not only for travelers, but also for the people waiting for them at their destination. Fortunately, the [US Bureau of Transportation Statistics](https://www.bts.gov/) has information about flight arrival and departure statistics going back to the 80s. I combined this with distance information obtained from [OPenFLights](https://openflights.org/), and weather information from NOAA (https://www.ncdc.noaa.gov/cdo-web/search) to create a set of inputs that would help predict whether or not a flight would arrive on time.
+Late flight arrivals are a hassle, not only for travelers, but also for the people waiting for them at their destination. Fortunately, the [US Bureau of Transportation Statistics](https://www.bts.gov/) has information about flight arrival and departure statistics going back to the 80s. I combined this with distance information obtained from [OpenFlights](https://openflights.org/), and weather information from [NOAA](https://www.ncdc.noaa.gov/cdo-web/search) to create a set of inputs that would help predict whether or not a flight would arrive on time.
 
 #### Methods
 I cleaned and merged the data in Python, using the Pandas package. I broke the datetime information into its constituent parts, to create a more robust predictive method. 
